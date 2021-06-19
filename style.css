@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg {
+  background-color: rgb(215, 250, 225);
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+/* .row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  width: 100%;
+  height: 300px;
+  flex-wrap: wrap;
+}
+
+.row-2 {
+  display: flex;
+  height: 300px;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.row-3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: flex-end;
+  height: 200px;
+  flex-wrap: wrap;
+} */
+@media  screen and (max-width:600px) {
+  .pi{
+    width: 200px;
+  }
+  .row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    background-color: tomato;
+  }
+    .row-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+     background-color: tomato;
+   
+  }
+    .row-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: tomato;
+  }
+}
+
+ @media screen and (min-width:601px) {
+  .pi{
+    width: 200px;
+  }
+  .row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    background-color: darkorchid;
+  }
+    .row-2{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    background-color: darkorchid;
+  }
+    .row-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: darkorchid;
+  }
+} 
+@media  screen and (min-width:1201px) {
+
+  .pi{
+    width: 300px;
+  }
+  .row-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: bisque;
+  }
+    .row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: bisque;
+  }
+    .row-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    background-color: bisque;
+  }
+}
