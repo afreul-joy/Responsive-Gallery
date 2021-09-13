@@ -4,7 +4,7 @@ It's Mini Project
 
 
 
-## Demo
+## Live Site link :
 
 https://afreul-joy.github.io/Responsive-Gallery/
 
